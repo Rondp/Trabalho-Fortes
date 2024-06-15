@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../CSS/styleLogin.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="left-panel">
+            <img src="../imagens/FORTES_LOGOMARCA.png" alt="Fortes Engenharia" class="logo">
+            <h1>Bem Vindo!</h1>
+            <p>Para se manter conectado conosco por favor faça login com seus dados</p>
+            <div class="divider"></div>
+            <p>Caso ainda não possua uma conta:</p>
+            <button class="signup-button">Cadastre-se</button>
+        </div>
+        <div class="right-panel">
+            <h2>Entre na sua conta</h2>
+            <form id="login-form">
+            <input class="login" type="text" placeholder="Login" id="login">
+            <input calss="senha" type="password" placeholder="Senha" id="senha">
+            <div class="extra-links">
+                <a href="#" class="admin-link">Entrar como Administrador</a>
+                <a href="#" class="forgot-link">Esqueceu sua senha?</a>
+            </div>
+            <div class="social-login">
+                <button type="button" class="social-button google">G</button>
+                <button type="button" class="social-button facebook">f</button>
+                <button type="button" class="social-button linkedin">in</button>
+            </div>
+            <input class="login-button" type="submit" onclick="logar(); return false">
+            </form>
+            
+        </div>
+    </div>
+    <script src="../JS/PaginaLogin.js"></script>
+
+
+    
+</body>
+</html>
