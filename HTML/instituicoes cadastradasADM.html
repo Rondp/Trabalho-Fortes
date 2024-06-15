@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instituições Cadastradas</title>
+    <link rel="stylesheet" href="../CSS/instituicoes cadastradasADM.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="../imagens/FORTES_LOGOMARCA.png" alt="Fortes Engenharia">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Pesquisar" id="searchInput">
+            </div>
+        </header>
+        <aside>
+            <ul>
+                <li><a class="homeadm" href="../HTML/homeadm.html"> Tela Inicial </a></li>
+                <li>Meu Perfil</li>
+                <li>Instituições Cadastradas</li>
+                <li><a class="relatorio" href="../HTML/relatorioADM.html">Relatórios/Desempenho</a></li>
+                <li>Chat</li>
+                <li>Ajuda</li>
+            </ul>
+        </aside>
+        <main>
+            <div class="filter">
+                <button>Nova Planilha</button>
+                <button>Opções</button>
+                <button onclick="printPage()">Imprimir</button>
+                <input type="text" placeholder="Filtrar por:" id="filterInput">
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Data de Cadastro</th>
+                        <th>Instituição</th>
+                        <th>Tipo</th>
+                        <th>Especialização/Necessidades</th>
+                        <th>Email</th>
+                        <th>Telefone</th>
+                        <th>CEP</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>05/02/2024</td>
+                        <td>Instituto Caridade</td>
+                        <td>Doadora</td>
+                        <td>Vestimentas</td>
+                        <td>insticar@gmail.com</td>
+                        <td>(27) 978668473</td>
+                        <td>29000-01</td>
+                    </tr>
+                    <tr>
+                        <td>06/02/2024</td>
+                        <td>Instituto Esperança</td>
+                        <td>Carente</td>
+                        <td>Alimentos e Suprimentos</td>
+                        <td>inseper@gmail.com</td>
+                        <td>(27) 874835709</td>
+                        <td>29000-02</td>
+                    </tr>
+                    <tr>
+                        <td>11/02/2024</td>
+                        <td>Fundação Abrigo da Paz</td>
+                        <td>Carente</td>
+                        <td>Serviços de saúde</td>
+                        <td>fundapaz@gmail.com</td>
+                        <td>(27) 84856789</td>
+                        <td>29000-03</td>
+                    </tr>
+                    <tr>
+                        <td>18/02/2024</td>
+                        <td>Instituto Mãos Amigas</td>
+                        <td>Doadora</td>
+                        <td>Voluntários</td>
+                        <td>amigos@gmail.com</td>
+                        <td>(27) 898845678</td>
+                        <td>29000-04</td>
+                    </tr>
+                    <tr>
+                        <td>21/02/2024</td>
+                        <td>Centro de Apoio Solidário</td>
+                        <td>Carente</td>
+                        <td>Recursos Financeiros</td>
+                        <td>carlida@gmail.com</td>
+                        <td>(27) 640287789</td>
+                        <td>29000-05</td>
+                    </tr>
+                    <tr>
+                        <td>21/02/2024</td>
+                        <td>Centro de Apoio Solidário</td>
+                        <td>Doadora</td>
+                        <td>Recursos Financeiros</td>
+                        <td>ctapeio@gmail.com</td>
+                        <td>(27) 045372957</td>
+                        <td>29000-06</td>
+                    </tr>
+                    <tr>
+                        <td>23/02/2024</td>
+                        <td>Fundação Sorrisos de Criança</td>
+                        <td>Carente</td>
+                        <td>Educação</td>
+                        <td>fundasorrisos@gmail.com</td>
+                        <td>(27) 383456784</td>
+                        <td>29000-07</td>
+                    </tr>
+                    <tr>
+                        <td>23/02/2024</td>
+                        <td>Instituto Solidariedade</td>
+                        <td>Doadora</td>
+                        <td>Recursos Financeiros</td>
+                        <td>instisol@gmail.com</td>
+                        <td>(27) 386548789</td>
+                        <td>29000-08</td>
+                    </tr>
+                    <tr>
+                        <td>25/02/2024</td>
+                        <td>Centro de Apoio da Paz</td>
+                        <td>Doadora</td>
+                        <td>Recursos Financeiros</td>
+                        <td>ctpapaz@gmail.com</td>
+                        <td>(27) 846775483</td>
+                        <td>29000-09</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+    </div>
+    <script src="../JS/instituicoes cadastradasADM.js"></script>
+</body>
+</html>
